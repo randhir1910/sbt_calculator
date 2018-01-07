@@ -12,9 +12,8 @@ public class Calculator {
   public static void resultSave() {
     try {
       PreparedStatement preparedStatement = Database.getConn()
-          .prepareStatement("insert into calculator"
-              + "(timestamp,leftOperand,rightOperand,operator,result)"
-              + " values (?,?,?,?,?)");
+          .prepareStatement("insert into calculator(timestamp,left_operand,"
+              + "right_operand,operator,result) values (?,?,?,?,?)");
       java.util.Date date = new java.util.Date();
       java.sql.Timestamp sqlTime = new java.sql.Timestamp(date.getTime());
       preparedStatement.setTimestamp(1, sqlTime);
@@ -40,24 +39,30 @@ public class Calculator {
     rightOperand = in.nextDouble();
     System.out.println("enter operation ");
     in.nextLine();
-    operation = in.nextLine().substring(0, 3).toLowerCase();
-
+    operation = in.nextLine();
+    if (operation.length() > 2) {
+      operation = operation.substring(0, 3).toString();
+    }
     switch (operation) {
+      case "+":
       case "sum": {
         result = operator.sum(leftOperand, rightOperand);
         System.out.println("result : " + result);
         break;
       }
+      case "-":
       case "sub": {
         result = operator.sub(leftOperand, rightOperand);
         System.out.println("result : " + result);
         break;
       }
+      case "*":
       case "mul": {
         result = operator.mul(leftOperand, rightOperand);
         System.out.println("result : " + result);
         break;
       }
+      case "/":
       case "div": {
         if (rightOperand != 0) {
           result = operator.div(leftOperand, rightOperand);
@@ -67,6 +72,7 @@ public class Calculator {
         }
         break;
       }
+      case "%":
       case "mod": {
         result = operator.mod(leftOperand, rightOperand);
         System.out.println("result : " + result);

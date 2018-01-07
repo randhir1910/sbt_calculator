@@ -1,6 +1,7 @@
 [0m[[0m[0minfo[0m] [0m[0mRunning checkstyle: src/main/java[0m
 [0m[[0m[0minfo[0m] [0m[0mUsing checkstyle configuration: google[0m
 [0m[[0m[0mdebug[0m] [0m[0mchecking src/main/java/com/knoldus/Database.java[0m
+[0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/Database.java:14: Missing a Javadoc comment.[0m
 [0m[[0m[0mdebug[0m] [0m[0mchecking src/main/java/com/knoldus/Operation.java[0m
 [0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/Operation.java:21: Missing a Javadoc comment.[0m
 [0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/Operation.java:33: Missing a Javadoc comment.[0m
@@ -9,9 +10,9 @@
 [0m[[0m[0mdebug[0m] [0m[0mchecking src/main/java/com/knoldus/Operator.java[0m
 [0m[[0m[0mdebug[0m] [0m[0mchecking src/main/java/com/knoldus/Calculator.java[0m
 [0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/Calculator.java:12: Missing a Javadoc comment.[0m
-[0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/Calculator.java:34: Missing a Javadoc comment.[0m
+[0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/Calculator.java:33: Missing a Javadoc comment.[0m
 [0m[[0m[0mdebug[0m] [0m[0mchecking src/main/java/com/knoldus/DbQuery.java[0m
-[0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/DbQuery.java:15: Missing a Javadoc comment.[0m
-[0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/DbQuery.java:33: Missing a Javadoc comment.[0m
-[0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/DbQuery.java:54: Missing a Javadoc comment.[0m
+[0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/DbQuery.java:16: Missing a Javadoc comment.[0m
+[0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/DbQuery.java:35: Missing a Javadoc comment.[0m
+[0m[[0m[33mwarn[0m] [0m[0msrc/main/java/com/knoldus/DbQuery.java:56: Missing a Javadoc comment.[0m
 [0m[[0m[0minfo[0m] [0m[0mcheckstyle has succeeded[0m

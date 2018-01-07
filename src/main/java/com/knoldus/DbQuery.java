@@ -2,6 +2,7 @@ package com.knoldus;
 
 /**
  * all database query perform here.
+ *
  * @author randhir
  * database mysql
  * version 5.1.6
@@ -15,7 +16,8 @@ public class DbQuery {
   public static void allRead() {
     try {
       Statement statement = Database.getConn().createStatement();
-      ResultSet result = statement.executeQuery("select * from calculator");
+      ResultSet result = statement.executeQuery("select "
+          + "* from calculator");
       System.out.println("id  date       time        left_operand "
           + "  right_operand   operator    result");
       while (result.next()) {

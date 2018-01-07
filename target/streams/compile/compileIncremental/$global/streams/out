@@ -1,1 +1,24 @@
-[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating /home/knoldus/Documents/sbt_assign/target/scala-2.12/classes/com/knoldus/Operator.class: stamp changed from lastModified(1515334820858) to lastModified(1515335020209)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/knoldus/IdeaProjects/sbt_assign/src/main/java/com/knoldus/Calculator.java, /home/knoldus/IdeaProjects/sbt_assign/src/main/java/com/knoldus/operator.java, /home/knoldus/IdeaProjects/sbt_assign/src/main/java/com/connection/DBConnect.java, /home/knoldus/IdeaProjects/sbt_assign/src/main/java/com/knoldus/Operator.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/Database.java, /home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/DbQuery.java, /home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/Calculator.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/knoldus/Documents/sbt_assign/target/scala-2.12/classes/com/knoldus/Database.class, /home/knoldus/Documents/sbt_assign/target/scala-2.12/classes/com/knoldus/DbQuery.class, /home/knoldus/Documents/sbt_assign/target/scala-2.12/classes/com/knoldus/Operation.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/home/knoldus/Documents/sbt_assign/target/scala-2.12/classes/com/knoldus/Operator.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.knoldus.Database, com.knoldus.DbQuery)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/Database.java, /home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/DbQuery.java, /home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/Operation.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/Operation.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(com.knoldus.Database, com.knoldus.DbQuery)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/Database.java, /home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/DbQuery.java, /home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/Calculator.java, /home/knoldus/Documents/sbt_assign/src/main/java/com/knoldus/Operation.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 5 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 5 Java sources to /home/knoldus/Documents/sbt_assign/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAttempting to call com.sun.tools.javac.api.JavacTool@749c066f directly...[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation took 0.62590068 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava analysis took 0.139168263 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation + analysis took 0.796993408 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
