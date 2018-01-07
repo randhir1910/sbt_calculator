@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/knoldus/IdeaProjects/sbt_assign/target/scala-2.12/sbt_assign_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/sbt_assign/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Operator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/sbt_assign/target/scala-2.12/classes/com/knoldus/Operator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/connection[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/sbt_assign/target/scala-2.12/classes/com/connection[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Calculator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/sbt_assign/target/scala-2.12/classes/com/knoldus/Calculator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/sbt_assign/target/scala-2.12/classes/com/knoldus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/operator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/sbt_assign/target/scala-2.12/classes/com/knoldus/operator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/connection/DBConnect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/sbt_assign/target/scala-2.12/classes/com/connection/DBConnect.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
